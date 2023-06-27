@@ -237,6 +237,16 @@ Try changing it so that the test fails.</description>
     </item>
     
     <item>
+      <title>booleans</title>
+      <link>https://cairo-by-example.com/examples/booleans/</link>
+      <pubDate>Thu, 22 Jun 2023 12:05:00 -0600</pubDate>
+      
+      <guid>https://cairo-by-example.com/examples/booleans/</guid>
+      <description>As with Boolean types in other programming languages, bools have only two possible values: true and false.
+fn main() { let t: bool = true; let true_expr = 5 == 5; assert(t == true_expr, &amp;#39;this is true&amp;#39;); let f: bool = false; let false_expr = 7 == 5; assert(f == false_expr, &amp;#39;this is false&amp;#39;); } As with other scalar types, they are one felt252 in size.</description>
+    </item>
+    
+    <item>
       <title>hello world</title>
       <link>https://cairo-by-example.com/examples/hello-world/</link>
       <pubDate>Thu, 22 Jun 2023 12:00:00 -0600</pubDate>
